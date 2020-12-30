@@ -3,8 +3,8 @@
 	"version": "1.0.0",
 	"description": "A mod that adds many new loreols to the game.",
 	"scripts": {
-		"test_win_chrome": "\"./testing_tools/run_chrome.bat\" && npm run host",
-		"test_linux_chrome": "\"./testing_tools/run_chrome.sh\" && npm run host",
+		"test_win_chrome": "\".\\testing_tools\\run_chrome.bat\" && npm run build && npm run host",
+		"test_linux_chrome": "\".\\testing_tools\\run_chrome.sh\" && npm run build && npm run host",
 		"build": "npx rollup -c",
 		"host": "node ./node_modules/serve/bin/serve.js -p 5500"
 	},
