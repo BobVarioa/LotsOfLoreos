@@ -14,7 +14,7 @@ function LoreolUpgrade(name: string, quote: string, icon: Game.Icon): Game.Cooki
 	if (name === "Birthday Cake Loreol")
 	{
 		let years = Math.floor((Number(Date.now())-Number(new Date(2013,7,8)))/(1000*60*60*24*365));
-		Loreol = new Cppkies.CookieUpgrade("Birthday Cake Loreo", "", 99999999999999999999999999999*2 /* 200 octilion-ish */, [0, 0], years, {require : "Box of brand biscuts (Family Size)"}, 10031 );
+		Loreol = new Cppkies.CookieUpgrade("Birthday Cake Loreo", "", 99999999999999999999999999999*2 /* 200 octilion-ish */, [0, 0, "https://raw.githubusercontent.com/MasterOfBob777/LotsOfLoreos/master/dist/LotsOfLoreosIcons.png"], years, {require : "Box of brand biscuts (Family Size)"}, 10031 );
 		Loreol.baseDesc='Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+'+Beautify(years)+'%</b>).<q>Thank you for playing Cookie Clicker!<br>-Orteil (and Bob thanks you too!)</q>';
 		Loreol.desc=UghBeautifyInText(Loreol.baseDesc);
 	} else {
