@@ -10,7 +10,7 @@ Cppkies.onLoad.push(() => {
 	new Cppkies.HeavenlyUpgrade("Box of brand biscuts (Family Size)", "Contains lots of new flavors of loreols.<q>Now 10% larger!</q>", 1000000000, [20,9, ""], [-457,-305], ["Box of brand biscuits"])
 	
 	let years = Math.floor((Number(Date.now())-Number(new Date(2013,7,8)))/(1000*60*60*24*365));
-	let BdayLoreol = new Cppkies.CookieUpgrade("Birthday Cake Loreo", "", 99999999999999999999999999999*2 /* 200 octilion-ish */ , [0, 0, "https://raw.githubusercontent.com/MasterOfBob777/LotsOfLoreos/master/dist/LotsOfLoreosIcons.png"], years, {require : "Box of brand biscuts (Family Size)"}, 10031 );
+	let BdayLoreol = new Cppkies.CookieUpgrade("Birthday Cake Loreo", "", 99999999999999999999999999999*2 /* 200 octilion-ish */ , [0, 0], years, {require : "Box of brand biscuts (Family Size)"}, 10031 );
 	BdayLoreol.desc='Cookie production multiplier <b>+1%</b> for every year Cookie Clicker has existed (currently : <b>+'+Beautify(years)+'%</b>).<q>Thank you for playing Cookie Clicker!<br>-Orteil (and Bob thanks you too!)</q>';
 
 	new LoreolUpgrade("Mint Loreol", "Tastes a little like toothpaste, and it's not even mint flavored toothpaste. Like why do they call it \"mint\" flavored when it doesn't taste like mint, I guess it's because of the color but then why does it taste like the toothpaste that does the exact same thing; I hate mint anything because you never know what your going to get, it's either <b>this</b> or like thin- I mean Win Mints. -A local mint critic", [1,0])
