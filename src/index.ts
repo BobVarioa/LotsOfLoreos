@@ -6,7 +6,7 @@ class LoreolUpgrade extends Cppkies.CookieUpgrade {
 }
 
 Cppkies.onLoad.push(() => {
-	Cppkies.iconLink = "https://raw.githubusercontent.com/MasterOfBob777/LotsOfLoreos/master/dist/LotsOfLoreosIcons.png";
+	Cppkies.iconLink = "https://raw.githubusercontent.com/MasterOfBob777/LotsOfLoreos/master/static/LotsOfLoreosIcons.png";
 	new Cppkies.HeavenlyUpgrade("Box of brand biscuts (Family Size)", "Contains lots of new flavors of loreols.<q>Now 10% larger!</q>", 1000000000, [20,9, ""], [-457,-305], ["Box of brand biscuits"])
 	
 	let years = Math.floor((Number(Date.now())-Number(new Date(2013,7,8)))/(1000*60*60*24*365));
