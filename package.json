@@ -1,29 +1,33 @@
 {
-	"name": "lots-of-loreols",
-	"version": "1.0.0",
-	"description": "A mod that adds many new loreols to the game.",
+	"name": "lots-of-loreos",
+	"version": "1.0.1",
+	"description": "A mod that adds many new loreos to the game.",
 	"scripts": {
-		"test_win_chrome": "\".\\testing_tools\\run_chrome.bat\" && npm run build && npm run host",
-		"test_linux_chrome": "\".\\testing_tools\\run_chrome.sh\" && npm run build && npm run host",
 		"build": "npx rollup -c",
 		"host": "node ./node_modules/serve/bin/serve.js -p 5500"
 	},
 	"keywords": [
 		"cppkies"
 	],
+	"main": "./dist/index.js",
 	"author": "Bob Varioa",
 	"license": "MIT",
 	"devDependencies": {
-		"@rollup/plugin-commonjs": "^11.0.2",
-		"@rollup/plugin-node-resolve": "^7.1.1",
-		"rollup": "^2.1.0",
-		"rollup-plugin-analyzer": "^3.2.2",
+		"@rollup/plugin-commonjs": "^11.1.0",
+		"@rollup/plugin-node-resolve": "^7.1.3",
+		"cppkies": "^0.2.3",
+		"rollup": "^2.38.1",
+		"rollup-plugin-analyzer": "^3.3.0",
 		"rollup-plugin-babel": "^4.3.3",
 		"rollup-plugin-babel-minify": "^9.1.1",
 		"rollup-plugin-typescript2": "^0.25.3",
-		"typescript": "^4.1.2",
-		"cppkies": "^0.2.0-alpha.1",
-		"serve": "^11.3.2"
+		"serve": "^11.3.2",
+		"typescript": "^4.1.3"
 	},
-	"dependencies": {}
+	"dependencies": {},
+	"ccrepo": {
+		"icon" : [16, 3, ""],
+		"name": "Lots of Loreos",
+		"main": "https://rawcdn.githack.com/MasterOfBob777/LotsOfLoreos/d713f5fd9ec9d995f55fa02713076a6159ebf68f/dist/index.js"
+	}
 }
