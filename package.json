@@ -26,7 +26,7 @@
 	},
 	"dependencies": {},
 	"ccrepo": {
-		"icon" : [16, 3, ""],
+		"icon" : [16, 3],
 		"name": "Lots of Loreos"
 	}
 }
