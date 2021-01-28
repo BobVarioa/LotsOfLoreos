@@ -27,7 +27,6 @@
 	"dependencies": {},
 	"ccrepo": {
 		"icon" : [16, 3, ""],
-		"name": "Lots of Loreos",
-		"main": "https://rawcdn.githack.com/MasterOfBob777/LotsOfLoreos/d713f5fd9ec9d995f55fa02713076a6159ebf68f/dist/index.js"
+		"name": "Lots of Loreos"
 	}
 }
